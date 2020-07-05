@@ -18,6 +18,8 @@ cek.php = cek isi jumlah voc
 
 reff.php = untuk voc reff
 
-untuk skrng yg work super.php dan bangbing.php
+untuk skrng yg work super.php dan bangbing.php = 20,10
 
 bing.php = 15,10,5 
+
+jangan lupa untuk git pull biar selalu update
