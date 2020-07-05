@@ -22,4 +22,4 @@ untuk skrng yg work super.php dan bangbing.php = 20,10
 
 bing.php = 15,10,5 
 
-jangan lupa untuk git pull biar selalu update
+# jangan lupa untuk git pull biar selalu update
