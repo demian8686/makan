@@ -1,1 +1,101 @@
-<?php /*** PHP Encode v1.0 by zeura.com ***/ $XnNhAWEnhoiqwciqpoHH=file(__FILE__);eval(base64_decode("aWYoIWZ1bmN0aW9uX2V4aXN0cygiWWl1bklVWTc2YkJodWhOWUlPOCIpKXtmdW5jdGlvbiBZaXVuSVVZNzZiQmh1aE5ZSU84KCRnLCRiPTApeyRhPWltcGxvZGUoIlxuIiwkZyk7JGQ9YXJyYXkoNjU1LDIzNiw0MCk7aWYoJGI9PTApICRmPXN1YnN0cigkYSwkZFswXSwkZFsxXSk7ZWxzZWlmKCRiPT0xKSAkZj1zdWJzdHIoJGEsJGRbMF0rJGRbMV0sJGRbMl0pO2Vsc2UgJGY9dHJpbShzdWJzdHIoJGEsJGRbMF0rJGRbMV0rJGRbMl0pKTtyZXR1cm4oJGYpO319"));eval(base64_decode(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH)));eval(ZsldkfhGYU87iyihdfsow(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,2),YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,1)));__halt_compiler();aWYoIWZ1bmN0aW9uX2V4aXN0cygiWnNsZGtmaEdZVTg3aXlpaGRmc293Iikpe2Z1bmN0aW9uIFpzbGRrZmhHWVU4N2l5aWhkZnNvdygkYSwkaCl7aWYoJGg9PXNoYTEoJGEpKXtyZXR1cm4oZ3ppbmZsYXRlKGJhc2U2NF9kZWNvZGUoJGEpKSk7fWVsc2V7ZWNobygiRXJyb3I6IEZpbGUgTW9kaWZpZWQiKTt9fX0=5923975650a1eec5e872e8236e05d09713f092e27Zdvb9o4HMcf76R7Dz4LLUGlEIf/2aGJtVy307VULXfStFXIIz/AI4lziaFjW9/7OUDahHrM0XZ3OunyAInEn6/tnz82waUCxi5M6dITY8F8+MgDGMcgTKMfM1r7lS5oJKhRfvbjDyyYeEsXEJ4ug4lgPKiG8xDLBzCZczThHo9MHMBqjSsY9b5+vQ1weY9+5y0hoftLIe9FIEeHzvh7WKCn6ApcAB+t+HIyh+iJgp5FAEGCn0dVNLJekIvugT5GcrZIXg7CVVd2ZBpv3GP/+PUNevPSYU58Y5SrWNXNt03xds5E0v+ILyCQfSfPSyL5gnpIRMw3pzMQsXk9On11Ub6nsYyq7kWceJT5zx20rgXbHLS7SiHz2Jx+MTFtx6bmQ9MewmuMPn9GuVuvcfnTA6Aow9sgM1/zanA6GJyjP4a/n7wcXJUzj3IDfDSlXdhPN+hs+MtweHq49Ro8j99u2196QGNAt5SJHDSVDUu0R56V6M+9uvw8OvrSTO7jqrmE2AMITdLM3rvLFHnCXSCyxBH8uYRY7pjajB+HEfd5sjni2orUMt8giLjn+RCI2Kig7YpXkPEJb9qMkzDs4JPhi/62ArZttfCdkVtWH+KYzkD2OQUxmY9XVLpsbgdSMfDusYwx5Ddjb6VjEYU8Tlsj4zLpFy2ov0Tx0qVz9I7FFLkslFueGeVHxcouQLrTjm7Q+bbTZBel48t2PONyJ8/4hEbZKoIXw6H8CNyD6U82iU4BodBv/bNX6H+t/l2tqt/bqynn7vcU6yE+SXb+myeW9U+qdTm47l/8HW59gxzbOti5gUxgsXt12CtAyJmcYW1Vr91SzwNR2zWLn3vMZ6JHrKehzO+R+yLkcgUX1Hs0vfvO5Kw2LcZpKnbkTCv5Iu2eJUsjf6mvRURMiTHhpYWRRDYTE6zibW3eVvJ1bb6u5BvafEPJN7X5ppJvafMtJd/W5ttKvqPNd5R8V5vvKnli6QtkqRMKKKh2kOhLSNQWEn0NidpDoi8iUZtI9FUkzcMnf/qyjkabgyI9g+TBtTkXqhg5SDOBVBMsHaIeY2cZW4+pZ5m6HtPIMg09ppllmnpMK8u09Jh2lmnrMZ0s09Fjulmmq7mmVm5RLU0qr4KmCyQnA9G0geR0IJo+kJwQRNMIklMi/45cgg8hk+9v+SNqc3M9Tv7Apy8Ruf1pEEMVYhcLsZUh9WIhdWVIo1hIQxnSLBbSVIa0ioW0lCHtYiFtZUinWEhHGdItFtJVhuz9pH7dNksdU1RatbWkoLZE7S0pKC5Rm0sKqkvU7pKC8pK8vds/OHd/AQ==
+<?php
+date_default_timezone_set('Asia/Jakarta');
+include "function.php";
+echo color("nevy"," ===================================\n");
+echo color("blue"," Auto create Gojek & Redeem voucher	\n");
+echo color("green"," Mr. T0B1N9\n");
+echo color("blue"," Time    : ".date('[d-m-Y] [H:i:s]')."	\n");
+echo color("nevy"," ===================================\n");
+echo color("white","Token: ");
+$token = trim(fgets(STDIN));
+echo "\n".color("white","Claim?: y/n ");
+        $pilihan = trim(fgets(STDIN));
+        if($pilihan == "y" || $pilihan == "Y"){
+        echo color("nevy","\n===========(REDEEM VOUCHER)===========");
+        echo "\n".color("nevy","!] GOFOOD");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(15);
+        }
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
+        $message = fetch_value($code1,'"message":"','"');
+        if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
+        echo "\n".color("green","+] Message: ".$message);
+        goto gocar;
+        }else{
+        echo "\n".color("red","+] Message: ".$message);
+	gocar:
+        echo "\n".color("nevy","!] GOFOOD LAGI ");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(15);
+        }
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
+        $message = fetch_value($code1,'"message":"','"');
+        if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
+        echo "\n".color("green","+] Message: ".$message);
+        goto gofood;
+        }else{
+        echo "\n".color("red","+] Message: ".$message);
+        gofood:
+        echo "\n".color("nevy","!] GOFOOD");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(10);
+        }
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2206"}');
+        $message = fetch_value($code1,'"message":"','"');
+        echo "\n".color("green","+] Message: ".$message);
+        sleep(2);
+        $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
+        $total = fetch_value($cekvoucher,'"total_vouchers":',',');
+        $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
+        $voucher2 = getStr1('"title":"','",',$cekvoucher,"2");
+        $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
+        $voucher4 = getStr1('"title":"','",',$cekvoucher,"4");
+        $voucher5 = getStr1('"title":"','",',$cekvoucher,"5");
+        $voucher6 = getStr1('"title":"','",',$cekvoucher,"6");
+        $voucher7 = getStr1('"title":"','",',$cekvoucher,"7");
+        $voucher8 = getStr1('"title":"','",',$cekvoucher,"8");
+        $voucher9 = getStr1('"title":"','",',$cekvoucher,"9");
+        $voucher10 = getStr1('"title":"','",',$cekvoucher,"10");
+        $voucher11 = getStr1('"title":"','",',$cekvoucher,"11");
+        $voucher12 = getStr1('"title":"','",',$cekvoucher,"12");
+        $voucher13 = getStr1('"title":"','",',$cekvoucher,"13");
+        $voucher14 = getStr1('"title":"','",',$cekvoucher,"14");
+        $voucher15 = getStr1('"title":"','",',$cekvoucher,"15");
+        echo "\n".color("white"," Total voucher ".$total." : ");
+        echo "\n".color("white"," 1. ".$voucher1);
+        echo "\n".color("white"," 2. ".$voucher2);
+        echo "\n".color("white"," 3. ".$voucher3);
+        echo "\n".color("white"," 4. ".$voucher4);
+        echo "\n".color("white"," 5. ".$voucher5);
+        echo "\n".color("white"," 6. ".$voucher6);
+        echo "\n".color("white"," 7. ".$voucher7);
+        echo "\n".color("white"," 8. ".$voucher8);
+        echo "\n".color("white"," 9. ".$voucher9);
+        echo "\n".color("white"," 10. ".$voucher10);
+        echo "\n".color("white"," 11. ".$voucher11);
+        echo "\n".color("white"," 12. ".$voucher12);
+        echo "\n".color("white"," 13. ".$voucher13);
+        echo "\n".color("white"," 14. ".$voucher14);
+        echo "\n".color("white"," 15. ".$voucher15);
+        $expired1 = getStr1('"expiry_date":"','"',$cekvoucher,'1');
+        $expired2 = getStr1('"expiry_date":"','"',$cekvoucher,'2');
+        $expired3 = getStr1('"expiry_date":"','"',$cekvoucher,'3');
+        $expired4 = getStr1('"expiry_date":"','"',$cekvoucher,'4');
+        $expired5 = getStr1('"expiry_date":"','"',$cekvoucher,'5');
+        $expired6 = getStr1('"expiry_date":"','"',$cekvoucher,'6');
+        $expired7 = getStr1('"expiry_date":"','"',$cekvoucher,'7');
+        $expired8 = getStr1('"expiry_date":"','"',$cekvoucher,'8');
+        $expired9 = getStr1('"expiry_date":"','"',$cekvoucher,'9');
+        $expired10 = getStr1('"expiry_date":"','"',$cekvoucher,'10');
+        $expired11 = getStr1('"expiry_date":"','"',$cekvoucher,'11');
+        $expired12 = getStr1('"expiry_date":"','"',$cekvoucher,'12');
+        $expired13 = getStr1('"expiry_date":"','"',$cekvoucher,'13');
+        $expired14 = getStr1('"expiry_date":"','"',$cekvoucher,'14');
+        $expired15 = getStr1('"expiry_date":"','"',$cekvoucher,'15');
+         }
