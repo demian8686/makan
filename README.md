@@ -4,7 +4,7 @@ Salam Manis
 
 donasi lah seiklashnya biar semangat nih
 jika ingin fork harap ijin ke sya ( dgenemar123@gmail.com)
-harga dan syukuri apa yg ada
+hargai dan syukuri apa yg ada
 
 pin.php = input pin manual
 
