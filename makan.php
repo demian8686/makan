@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-include "function1.php";
+include "function.php";
 echo color("nevy"," ===================================\n");
 echo color("blue"," Auto create Gojek & Redeem voucher	\n");
 echo color("green"," Mr. T0B1N9\n");
