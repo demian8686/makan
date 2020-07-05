@@ -11,45 +11,20 @@ $token = trim(fgets(STDIN));
 echo "\n".color("white","Claim?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("nevy","\n===========(REDEEM VOUCHER)===========");
-        echo "\n".color("nevy","!] GOFOOD");
-        echo "\n".color("yellow","!] Please wait");
+        echo color("white","▬▬▬▬▬▬▬▬▬▬▬▬CLAIM VOUCHER▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("white","Claim A..");
+        echo "\n".color("white","Please wait");
         for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(15);
+        echo color("white",".");
+        sleep(1);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
-        echo "\n".color("green","+] Message: ".$message);
-        goto gocar;
+        echo "\n".color("green"," Message: ".$message);
         }else{
-        echo "\n".color("red","+] Message: ".$message);
-	gocar:
-        echo "\n".color("nevy","!] GOFOOD LAGI ");
-        echo "\n".color("yellow","!] Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(15);
-        }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
-        $message = fetch_value($code1,'"message":"','"');
-        if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
-        echo "\n".color("green","+] Message: ".$message);
-        goto gofood;
-        }else{
-        echo "\n".color("red","+] Message: ".$message);
-        gofood:
-        echo "\n".color("nevy","!] GOFOOD");
-        echo "\n".color("yellow","!] Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(10);
-        }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2206"}');
-        $message = fetch_value($code1,'"message":"','"');
-        echo "\n".color("green","+] Message: ".$message);
-        sleep(2);
+        echo "\n".color("white"," Message: ".$message);
+        sleep(1);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
         $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
@@ -99,3 +74,4 @@ echo "\n".color("white","Claim?: y/n ");
         $expired14 = getStr1('"expiry_date":"','"',$cekvoucher,'14');
         $expired15 = getStr1('"expiry_date":"','"',$cekvoucher,'15');
          }
+  }
