@@ -3,7 +3,6 @@ date_default_timezone_set('Asia/Jakarta');
 include "functionx.php";
 echo color("white","Token: ");
 $token = trim(fgets(STDIN));
- setpin:
          echo "\n".color("white","SETPIN..!!!: y/n ");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
