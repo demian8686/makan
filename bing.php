@@ -1,6 +1,10 @@
-<?php
 date_default_timezone_set('Asia/Jakarta');
 include "functionx.php";
+echo color("nevy"," ===================================\n");
+echo color("blue"," Auto create Gojek & Redeem voucher	\n");
+echo color("green"," Mr. T0B1N9\n");
+echo color("blue"," Time    : ".date('[d-m-Y] [H:i:s]')."	\n");
+echo color("nevy"," ===================================\n");
 echo color("white","Token: ");
 $token = trim(fgets(STDIN));
 echo "\n".color("white","Claim?: y/n ");
@@ -13,7 +17,7 @@ echo "\n".color("white","Claim?: y/n ");
         echo color("white",".");
         sleep(1);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green"," Message: ".$message);
